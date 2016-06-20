@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		754240541D18451300A13020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 754240531D18451300A13020 /* main.m */; };
+		754240571D18451300A13020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 754240561D18451300A13020 /* AppDelegate.m */; };
+		7542405A1D18451300A13020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754240591D18451300A13020 /* ViewController.m */; };
+		7542405D1D18451400A13020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542405B1D18451400A13020 /* Main.storyboard */; };
+		754240601D18451400A13020 /* aVian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7542405E1D18451400A13020 /* aVian.xcdatamodeld */; };
+		754240621D18451400A13020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754240611D18451400A13020 /* Assets.xcassets */; };
+		754240651D18451400A13020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754240631D18451400A13020 /* LaunchScreen.storyboard */; };
+		754240701D18451400A13020 /* aVianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542406F1D18451400A13020 /* aVianTests.m */; };
+		7542407B1D18451400A13020 /* aVianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542407A1D18451400A13020 /* aVianUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7542406C1D18451400A13020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 754240471D18451300A13020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7542404E1D18451300A13020;
+			remoteInfo = aVian;
+		};
+		754240771D18451400A13020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 754240471D18451300A13020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7542404E1D18451300A13020;
+			remoteInfo = aVian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7542404F1D18451300A13020 /* aVian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aVian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		754240531D18451300A13020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		754240551D18451300A13020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		754240561D18451300A13020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		754240581D18451300A13020 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		754240591D18451300A13020 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7542405C1D18451400A13020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7542405F1D18451400A13020 /* aVian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aVian.xcdatamodel; sourceTree = "<group>"; };
+		754240611D18451400A13020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		754240641D18451400A13020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		754240661D18451400A13020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7542406B1D18451400A13020 /* aVianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aVianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7542406F1D18451400A13020 /* aVianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aVianTests.m; sourceTree = "<group>"; };
+		754240711D18451400A13020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754240761D18451400A13020 /* aVianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aVianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7542407A1D18451400A13020 /* aVianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aVianUITests.m; sourceTree = "<group>"; };
+		7542407C1D18451400A13020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7542404C1D18451300A13020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754240681D18451400A13020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754240731D18451400A13020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754240461D18451300A13020 = {
+			isa = PBXGroup;
+			children = (
+				754240511D18451300A13020 /* aVian */,
+				7542406E1D18451400A13020 /* aVianTests */,
+				754240791D18451400A13020 /* aVianUITests */,
+				754240501D18451300A13020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		754240501D18451300A13020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7542404F1D18451300A13020 /* aVian.app */,
+				7542406B1D18451400A13020 /* aVianTests.xctest */,
+				754240761D18451400A13020 /* aVianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		754240511D18451300A13020 /* aVian */ = {
+			isa = PBXGroup;
+			children = (
+				754240551D18451300A13020 /* AppDelegate.h */,
+				754240561D18451300A13020 /* AppDelegate.m */,
+				754240581D18451300A13020 /* ViewController.h */,
+				754240591D18451300A13020 /* ViewController.m */,
+				7542405B1D18451400A13020 /* Main.storyboard */,
+				754240611D18451400A13020 /* Assets.xcassets */,
+				754240631D18451400A13020 /* LaunchScreen.storyboard */,
+				754240661D18451400A13020 /* Info.plist */,
+				7542405E1D18451400A13020 /* aVian.xcdatamodeld */,
+				754240521D18451300A13020 /* Supporting Files */,
+			);
+			path = aVian;
+			sourceTree = "<group>";
+		};
+		754240521D18451300A13020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				754240531D18451300A13020 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7542406E1D18451400A13020 /* aVianTests */ = {
+			isa = PBXGroup;
+			children = (
+				7542406F1D18451400A13020 /* aVianTests.m */,
+				754240711D18451400A13020 /* Info.plist */,
+			);
+			path = aVianTests;
+			sourceTree = "<group>";
+		};
+		754240791D18451400A13020 /* aVianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7542407A1D18451400A13020 /* aVianUITests.m */,
+				7542407C1D18451400A13020 /* Info.plist */,
+			);
+			path = aVianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7542404E1D18451300A13020 /* aVian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7542407F1D18451400A13020 /* Build configuration list for PBXNativeTarget "aVian" */;
+			buildPhases = (
+				7542404B1D18451300A13020 /* Sources */,
+				7542404C1D18451300A13020 /* Frameworks */,
+				7542404D1D18451300A13020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aVian;
+			productName = aVian;
+			productReference = 7542404F1D18451300A13020 /* aVian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7542406A1D18451400A13020 /* aVianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754240821D18451400A13020 /* Build configuration list for PBXNativeTarget "aVianTests" */;
+			buildPhases = (
+				754240671D18451400A13020 /* Sources */,
+				754240681D18451400A13020 /* Frameworks */,
+				754240691D18451400A13020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7542406D1D18451400A13020 /* PBXTargetDependency */,
+			);
+			name = aVianTests;
+			productName = aVianTests;
+			productReference = 7542406B1D18451400A13020 /* aVianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		754240751D18451400A13020 /* aVianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754240851D18451400A13020 /* Build configuration list for PBXNativeTarget "aVianUITests" */;
+			buildPhases = (
+				754240721D18451400A13020 /* Sources */,
+				754240731D18451400A13020 /* Frameworks */,
+				754240741D18451400A13020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				754240781D18451400A13020 /* PBXTargetDependency */,
+			);
+			name = aVianUITests;
+			productName = aVianUITests;
+			productReference = 754240761D18451400A13020 /* aVianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		754240471D18451300A13020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = volldammd;
+				TargetAttributes = {
+					7542404E1D18451300A13020 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 367B5P89AH;
+					};
+					7542406A1D18451400A13020 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 367B5P89AH;
+						TestTargetID = 7542404E1D18451300A13020;
+					};
+					754240751D18451400A13020 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 367B5P89AH;
+						TestTargetID = 7542404E1D18451300A13020;
+					};
+				};
+			};
+			buildConfigurationList = 7542404A1D18451300A13020 /* Build configuration list for PBXProject "aVian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 754240461D18451300A13020;
+			productRefGroup = 754240501D18451300A13020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7542404E1D18451300A13020 /* aVian */,
+				7542406A1D18451400A13020 /* aVianTests */,
+				754240751D18451400A13020 /* aVianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7542404D1D18451300A13020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754240651D18451400A13020 /* LaunchScreen.storyboard in Resources */,
+				754240621D18451400A13020 /* Assets.xcassets in Resources */,
+				7542405D1D18451400A13020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754240691D18451400A13020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754240741D18451400A13020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7542404B1D18451300A13020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7542405A1D18451300A13020 /* ViewController.m in Sources */,
+				754240601D18451400A13020 /* aVian.xcdatamodeld in Sources */,
+				754240571D18451300A13020 /* AppDelegate.m in Sources */,
+				754240541D18451300A13020 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754240671D18451400A13020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754240701D18451400A13020 /* aVianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754240721D18451400A13020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7542407B1D18451400A13020 /* aVianUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7542406D1D18451400A13020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7542404E1D18451300A13020 /* aVian */;
+			targetProxy = 7542406C1D18451400A13020 /* PBXContainerItemProxy */;
+		};
+		754240781D18451400A13020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7542404E1D18451300A13020 /* aVian */;
+			targetProxy = 754240771D18451400A13020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7542405B1D18451400A13020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7542405C1D18451400A13020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		754240631D18451400A13020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				754240641D18451400A13020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7542407D1D18451400A13020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7542407E1D18451400A13020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		754240801D18451400A13020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aVian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = volldammd.aVian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		754240811D18451400A13020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aVian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = volldammd.aVian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		754240831D18451400A13020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aVianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = volldammd.aVianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aVian.app/aVian";
+			};
+			name = Debug;
+		};
+		754240841D18451400A13020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aVianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = volldammd.aVianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aVian.app/aVian";
+			};
+			name = Release;
+		};
+		754240861D18451400A13020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aVianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = volldammd.aVianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aVian;
+			};
+			name = Debug;
+		};
+		754240871D18451400A13020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aVianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = volldammd.aVianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aVian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7542404A1D18451300A13020 /* Build configuration list for PBXProject "aVian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7542407D1D18451400A13020 /* Debug */,
+				7542407E1D18451400A13020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7542407F1D18451400A13020 /* Build configuration list for PBXNativeTarget "aVian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754240801D18451400A13020 /* Debug */,
+				754240811D18451400A13020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		754240821D18451400A13020 /* Build configuration list for PBXNativeTarget "aVianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754240831D18451400A13020 /* Debug */,
+				754240841D18451400A13020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		754240851D18451400A13020 /* Build configuration list for PBXNativeTarget "aVianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754240861D18451400A13020 /* Debug */,
+				754240871D18451400A13020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7542405E1D18451400A13020 /* aVian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7542405F1D18451400A13020 /* aVian.xcdatamodel */,
+			);
+			currentVersion = 7542405F1D18451400A13020 /* aVian.xcdatamodel */;
+			path = aVian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 754240471D18451300A13020 /* Project object */;
+}
